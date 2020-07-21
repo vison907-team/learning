@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // undraw the tetromino
     function undraw() {
         current.forEach(index => {
-            squares[currentPosition + index].classList.remove('tertromino')
+            squares[currentPosition + index].classList.remove('tetromino')
         })
     }
 

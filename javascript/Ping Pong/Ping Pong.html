@@ -143,9 +143,9 @@ function drawEverything() {
             if(player1Score >= WINNING_SCORE) {
                     canvasContext.fillText("YOU WON!", 350, 200)
 
-            } else if(player2Score >= WINNING_SCORE) {
+            }else{ if(player2Score >= WINNING_SCORE) {
                     canvasContext.fillText("COMPUTER WON!", 350, 200)
-            }
+            }}
             
             
             canvasContext.fillText("click to continue.", 350, 500);

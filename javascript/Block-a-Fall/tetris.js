@@ -73,7 +73,6 @@ document.addEventListener('DOMContentLoaded', () => {
     function moveDown() {
         undraw()
         currentPosition += width
-        undraw()
         draw()
         freeze()
     }
